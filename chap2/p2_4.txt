@@ -1,0 +1,290 @@
+
+p2_4:	file format mach-o arm64
+
+SYMBOL TABLE:
+0000000100007034  w    F __TEXT,__text .hidden MBTX::MBTX()
+0000000100007060  w    F __TEXT,__text .hidden MBTX::MBTX()
+0000000100007090  w    F __TEXT,__text .hidden MATX::MATX()
+00000001000070bc  w    F __TEXT,__text .hidden MATX::MATX()
+0000000100007104  w    F __TEXT,__text .hidden std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::operator<<[abi:ue170004]<std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*)
+000000010000714c  w    F __TEXT,__text .hidden std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<[abi:ue170004](std::__1::basic_ostream<char, std::__1::char_traits<char>>& (*)(std::__1::basic_ostream<char, std::__1::char_traits<char>>&))
+0000000100007178  w    F __TEXT,__text .hidden std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::endl[abi:ue170004]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&)
+00000001000071d0  w    F __TEXT,__text .hidden std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::__put_character_sequence[abi:ue170004]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long)
+00000001000073bc  w    F __TEXT,__text .hidden std::__1::char_traits<char>::length[abi:ue170004](char const*)
+00000001000073f0  w    F __TEXT,__text .hidden std::__1::basic_ostream<char, std::__1::char_traits<char>>::sentry::operator bool[abi:ue170004]() const
+000000010000740c  w    F __TEXT,__text .hidden std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>> std::__1::__pad_and_output[abi:ue170004]<char, std::__1::char_traits<char>>(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>, char const*, char const*, char const*, std::__1::ios_base&, char)
+000000010000764c  w    F __TEXT,__text .hidden std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>::ostreambuf_iterator[abi:ue170004](std::__1::basic_ostream<char, std::__1::char_traits<char>>&)
+0000000100007680  w    F __TEXT,__text .hidden std::__1::ios_base::flags[abi:ue170004]() const
+0000000100007698  w    F __TEXT,__text .hidden std::__1::basic_ios<char, std::__1::char_traits<char>>::fill[abi:ue170004]() const
+00000001000076fc  w    F __TEXT,__text .hidden std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>::failed[abi:ue170004]() const
+0000000100007720  w    F __TEXT,__text .hidden std::__1::basic_ios<char, std::__1::char_traits<char>>::setstate[abi:ue170004](unsigned int)
+000000010000774c  w    F __TEXT,__text .hidden ___clang_call_terminate
+000000010000775c  w    F __TEXT,__text .hidden std::__1::ios_base::width[abi:ue170004]() const
+0000000100007774  w    F __TEXT,__text .hidden std::__1::basic_streambuf<char, std::__1::char_traits<char>>::sputn[abi:ue170004](char const*, long)
+00000001000077b0  w    F __TEXT,__text .hidden std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::basic_string[abi:ue170004](unsigned long, char)
+00000001000077ec  w    F __TEXT,__text .hidden std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::data[abi:ue170004]()
+0000000100007814  w    F __TEXT,__text .hidden std::__1::ios_base::width[abi:ue170004](long)
+0000000100007840  w    F __TEXT,__text .hidden std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::basic_string[abi:ue170004](unsigned long, char)
+000000010000788c  w    F __TEXT,__text .hidden std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, std::__1::allocator<char>>::__compressed_pair[abi:ue170004]<std::__1::__default_init_tag, std::__1::__default_init_tag>(std::__1::__default_init_tag&&, std::__1::__default_init_tag&&)
+00000001000078c8  w    F __TEXT,__text .hidden std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, std::__1::allocator<char>>::__compressed_pair[abi:ue170004]<std::__1::__default_init_tag, std::__1::__default_init_tag>(std::__1::__default_init_tag&&, std::__1::__default_init_tag&&)
+0000000100007904  w    F __TEXT,__text .hidden std::__1::__compressed_pair_elem<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, 0, false>::__compressed_pair_elem[abi:ue170004](std::__1::__default_init_tag)
+0000000100007918  w    F __TEXT,__text .hidden std::__1::__compressed_pair_elem<std::__1::allocator<char>, 1, true>::__compressed_pair_elem[abi:ue170004](std::__1::__default_init_tag)
+0000000100007944  w    F __TEXT,__text .hidden std::__1::allocator<char>::allocator[abi:ue170004]()
+0000000100007970  w    F __TEXT,__text .hidden std::__1::__non_trivial_if<true, std::__1::allocator<char>>::__non_trivial_if[abi:ue170004]()
+0000000100007984  w    F __TEXT,__text .hidden char* std::__1::__to_address[abi:ue170004]<char>(char*)
+0000000100007998  w    F __TEXT,__text .hidden std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__get_pointer[abi:ue170004]()
+00000001000079ec  w    F __TEXT,__text .hidden std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__is_long[abi:ue170004]() const
+0000000100007a24  w    F __TEXT,__text .hidden std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__get_long_pointer[abi:ue170004]()
+0000000100007a4c  w    F __TEXT,__text .hidden std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__get_short_pointer[abi:ue170004]()
+0000000100007a74  w    F __TEXT,__text .hidden std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, std::__1::allocator<char>>::first[abi:ue170004]() const
+0000000100007a98  w    F __TEXT,__text .hidden std::__1::__compressed_pair_elem<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, 0, false>::__get[abi:ue170004]() const
+0000000100007aac  w    F __TEXT,__text .hidden std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, std::__1::allocator<char>>::first[abi:ue170004]()
+0000000100007ad0  w    F __TEXT,__text .hidden std::__1::__compressed_pair_elem<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, 0, false>::__get[abi:ue170004]()
+0000000100007ae4  w    F __TEXT,__text .hidden std::__1::pointer_traits<char*>::pointer_to[abi:ue170004](char&)
+0000000100007af8  w    F __TEXT,__text .hidden std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>::ostreambuf_iterator[abi:ue170004](std::__1::basic_ostream<char, std::__1::char_traits<char>>&)
+0000000100007b4c  w    F __TEXT,__text .hidden std::__1::basic_ios<char, std::__1::char_traits<char>>::rdbuf[abi:ue170004]() const
+0000000100007b70  w    F __TEXT,__text .hidden std::__1::ios_base::rdbuf[abi:ue170004]() const
+0000000100007b88  w    F __TEXT,__text .hidden std::__1::char_traits<char>::eq_int_type[abi:ue170004](int, int)
+0000000100007bb0  w    F __TEXT,__text .hidden std::__1::char_traits<char>::eof[abi:ue170004]()
+0000000100007bb8  w    F __TEXT,__text .hidden std::__1::basic_ios<char, std::__1::char_traits<char>>::widen[abi:ue170004](char) const
+0000000100007c3c  w    F __TEXT,__text .hidden std::__1::ctype<char> const& std::__1::use_facet[abi:ue170004]<std::__1::ctype<char>>(std::__1::locale const&)
+0000000100007c68  w    F __TEXT,__text .hidden std::__1::ctype<char>::widen[abi:ue170004](char) const
+0000000100007ca0  w    F __TEXT,__text .hidden std::__1::ios_base::setstate[abi:ue170004](unsigned int)
+0000000100007cd4  w    F __TEXT,__text .hidden std::__1::__constexpr_strlen[abi:ue170004](char const*)
+0000000100007e90 l     O __TEXT,__gcc_except_tab GCC_except_table8
+0000000100007ec4 l     O __TEXT,__gcc_except_tab GCC_except_table9
+0000000100007ed4 l     O __TEXT,__gcc_except_tab GCC_except_table11
+0000000100007eec l     O __TEXT,__gcc_except_tab GCC_except_table40
+0000000100007efc l     O __TEXT,__gcc_except_tab GCC_except_table45
+000000010000c080 l     O __DATA,__data __dyld_private
+0000000000000000      d  *UND* /Users/wangfiox/DOCS_OFFLINE/OBSIDIAN/CPP/objects/
+0000000000000000      d  *UND* p2_4.cc
+000000006582bdc9      d  *UND* /var/folders/xh/kjhxxy457s955bklzjk_3w3w0000gn/T/p2_4-7922fc.o
+0000000100007004      d  *UND* 
+0000000100007004      d  *UND* _main
+0000000000000030      d  *UND* 
+0000000000000030      d  *UND* 
+0000000100007034      d  *UND* 
+0000000100007034      d  *UND* MBTX::MBTX()
+000000000000002c      d  *UND* 
+000000000000002c      d  *UND* 
+0000000100007060      d  *UND* 
+0000000100007060      d  *UND* MBTX::MBTX()
+0000000000000030      d  *UND* 
+0000000000000030      d  *UND* 
+0000000100007090      d  *UND* 
+0000000100007090      d  *UND* MATX::MATX()
+000000000000002c      d  *UND* 
+000000000000002c      d  *UND* 
+00000001000070bc      d  *UND* 
+00000001000070bc      d  *UND* MATX::MATX()
+0000000000000048      d  *UND* 
+0000000000000048      d  *UND* 
+0000000100007104      d  *UND* 
+0000000100007104      d  *UND* std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::operator<<[abi:ue170004]<std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*)
+0000000000000048      d  *UND* 
+0000000000000048      d  *UND* 
+000000010000714c      d  *UND* 
+000000010000714c      d  *UND* std::__1::basic_ostream<char, std::__1::char_traits<char>>::operator<<[abi:ue170004](std::__1::basic_ostream<char, std::__1::char_traits<char>>& (*)(std::__1::basic_ostream<char, std::__1::char_traits<char>>&))
+000000000000002c      d  *UND* 
+000000000000002c      d  *UND* 
+0000000100007178      d  *UND* 
+0000000100007178      d  *UND* std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::endl[abi:ue170004]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&)
+0000000000000058      d  *UND* 
+0000000000000058      d  *UND* 
+00000001000071d0      d  *UND* 
+00000001000071d0      d  *UND* std::__1::basic_ostream<char, std::__1::char_traits<char>>& std::__1::__put_character_sequence[abi:ue170004]<char, std::__1::char_traits<char>>(std::__1::basic_ostream<char, std::__1::char_traits<char>>&, char const*, unsigned long)
+00000000000001ec      d  *UND* 
+00000000000001ec      d  *UND* 
+00000001000073bc      d  *UND* 
+00000001000073bc      d  *UND* std::__1::char_traits<char>::length[abi:ue170004](char const*)
+0000000000000034      d  *UND* 
+0000000000000034      d  *UND* 
+00000001000073f0      d  *UND* 
+00000001000073f0      d  *UND* std::__1::basic_ostream<char, std::__1::char_traits<char>>::sentry::operator bool[abi:ue170004]() const
+000000000000001c      d  *UND* 
+000000000000001c      d  *UND* 
+000000010000740c      d  *UND* 
+000000010000740c      d  *UND* std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>> std::__1::__pad_and_output[abi:ue170004]<char, std::__1::char_traits<char>>(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>, char const*, char const*, char const*, std::__1::ios_base&, char)
+0000000000000240      d  *UND* 
+0000000000000240      d  *UND* 
+000000010000764c      d  *UND* 
+000000010000764c      d  *UND* std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>::ostreambuf_iterator[abi:ue170004](std::__1::basic_ostream<char, std::__1::char_traits<char>>&)
+0000000000000034      d  *UND* 
+0000000000000034      d  *UND* 
+0000000100007680      d  *UND* 
+0000000100007680      d  *UND* std::__1::ios_base::flags[abi:ue170004]() const
+0000000000000018      d  *UND* 
+0000000000000018      d  *UND* 
+0000000100007698      d  *UND* 
+0000000100007698      d  *UND* std::__1::basic_ios<char, std::__1::char_traits<char>>::fill[abi:ue170004]() const
+0000000000000064      d  *UND* 
+0000000000000064      d  *UND* 
+00000001000076fc      d  *UND* 
+00000001000076fc      d  *UND* std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>::failed[abi:ue170004]() const
+0000000000000024      d  *UND* 
+0000000000000024      d  *UND* 
+0000000100007720      d  *UND* 
+0000000100007720      d  *UND* std::__1::basic_ios<char, std::__1::char_traits<char>>::setstate[abi:ue170004](unsigned int)
+000000000000002c      d  *UND* 
+000000000000002c      d  *UND* 
+000000010000774c      d  *UND* 
+000000010000774c      d  *UND* ___clang_call_terminate
+0000000000000010      d  *UND* 
+0000000000000010      d  *UND* 
+000000010000775c      d  *UND* 
+000000010000775c      d  *UND* std::__1::ios_base::width[abi:ue170004]() const
+0000000000000018      d  *UND* 
+0000000000000018      d  *UND* 
+0000000100007774      d  *UND* 
+0000000100007774      d  *UND* std::__1::basic_streambuf<char, std::__1::char_traits<char>>::sputn[abi:ue170004](char const*, long)
+000000000000003c      d  *UND* 
+000000000000003c      d  *UND* 
+00000001000077b0      d  *UND* 
+00000001000077b0      d  *UND* std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::basic_string[abi:ue170004](unsigned long, char)
+000000000000003c      d  *UND* 
+000000000000003c      d  *UND* 
+00000001000077ec      d  *UND* 
+00000001000077ec      d  *UND* std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::data[abi:ue170004]()
+0000000000000028      d  *UND* 
+0000000000000028      d  *UND* 
+0000000100007814      d  *UND* 
+0000000100007814      d  *UND* std::__1::ios_base::width[abi:ue170004](long)
+000000000000002c      d  *UND* 
+000000000000002c      d  *UND* 
+0000000100007840      d  *UND* 
+0000000100007840      d  *UND* std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::basic_string[abi:ue170004](unsigned long, char)
+000000000000004c      d  *UND* 
+000000000000004c      d  *UND* 
+000000010000788c      d  *UND* 
+000000010000788c      d  *UND* std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, std::__1::allocator<char>>::__compressed_pair[abi:ue170004]<std::__1::__default_init_tag, std::__1::__default_init_tag>(std::__1::__default_init_tag&&, std::__1::__default_init_tag&&)
+000000000000003c      d  *UND* 
+000000000000003c      d  *UND* 
+00000001000078c8      d  *UND* 
+00000001000078c8      d  *UND* std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, std::__1::allocator<char>>::__compressed_pair[abi:ue170004]<std::__1::__default_init_tag, std::__1::__default_init_tag>(std::__1::__default_init_tag&&, std::__1::__default_init_tag&&)
+000000000000003c      d  *UND* 
+000000000000003c      d  *UND* 
+0000000100007904      d  *UND* 
+0000000100007904      d  *UND* std::__1::__compressed_pair_elem<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, 0, false>::__compressed_pair_elem[abi:ue170004](std::__1::__default_init_tag)
+0000000000000014      d  *UND* 
+0000000000000014      d  *UND* 
+0000000100007918      d  *UND* 
+0000000100007918      d  *UND* std::__1::__compressed_pair_elem<std::__1::allocator<char>, 1, true>::__compressed_pair_elem[abi:ue170004](std::__1::__default_init_tag)
+000000000000002c      d  *UND* 
+000000000000002c      d  *UND* 
+0000000100007944      d  *UND* 
+0000000100007944      d  *UND* std::__1::allocator<char>::allocator[abi:ue170004]()
+000000000000002c      d  *UND* 
+000000000000002c      d  *UND* 
+0000000100007970      d  *UND* 
+0000000100007970      d  *UND* std::__1::__non_trivial_if<true, std::__1::allocator<char>>::__non_trivial_if[abi:ue170004]()
+0000000000000014      d  *UND* 
+0000000000000014      d  *UND* 
+0000000100007984      d  *UND* 
+0000000100007984      d  *UND* char* std::__1::__to_address[abi:ue170004]<char>(char*)
+0000000000000014      d  *UND* 
+0000000000000014      d  *UND* 
+0000000100007998      d  *UND* 
+0000000100007998      d  *UND* std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__get_pointer[abi:ue170004]()
+0000000000000054      d  *UND* 
+0000000000000054      d  *UND* 
+00000001000079ec      d  *UND* 
+00000001000079ec      d  *UND* std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__is_long[abi:ue170004]() const
+0000000000000038      d  *UND* 
+0000000000000038      d  *UND* 
+0000000100007a24      d  *UND* 
+0000000100007a24      d  *UND* std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__get_long_pointer[abi:ue170004]()
+0000000000000028      d  *UND* 
+0000000000000028      d  *UND* 
+0000000100007a4c      d  *UND* 
+0000000100007a4c      d  *UND* std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__get_short_pointer[abi:ue170004]()
+0000000000000028      d  *UND* 
+0000000000000028      d  *UND* 
+0000000100007a74      d  *UND* 
+0000000100007a74      d  *UND* std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, std::__1::allocator<char>>::first[abi:ue170004]() const
+0000000000000024      d  *UND* 
+0000000000000024      d  *UND* 
+0000000100007a98      d  *UND* 
+0000000100007a98      d  *UND* std::__1::__compressed_pair_elem<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, 0, false>::__get[abi:ue170004]() const
+0000000000000014      d  *UND* 
+0000000000000014      d  *UND* 
+0000000100007aac      d  *UND* 
+0000000100007aac      d  *UND* std::__1::__compressed_pair<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, std::__1::allocator<char>>::first[abi:ue170004]()
+0000000000000024      d  *UND* 
+0000000000000024      d  *UND* 
+0000000100007ad0      d  *UND* 
+0000000100007ad0      d  *UND* std::__1::__compressed_pair_elem<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__rep, 0, false>::__get[abi:ue170004]()
+0000000000000014      d  *UND* 
+0000000000000014      d  *UND* 
+0000000100007ae4      d  *UND* 
+0000000100007ae4      d  *UND* std::__1::pointer_traits<char*>::pointer_to[abi:ue170004](char&)
+0000000000000014      d  *UND* 
+0000000000000014      d  *UND* 
+0000000100007af8      d  *UND* 
+0000000100007af8      d  *UND* std::__1::ostreambuf_iterator<char, std::__1::char_traits<char>>::ostreambuf_iterator[abi:ue170004](std::__1::basic_ostream<char, std::__1::char_traits<char>>&)
+0000000000000054      d  *UND* 
+0000000000000054      d  *UND* 
+0000000100007b4c      d  *UND* 
+0000000100007b4c      d  *UND* std::__1::basic_ios<char, std::__1::char_traits<char>>::rdbuf[abi:ue170004]() const
+0000000000000024      d  *UND* 
+0000000000000024      d  *UND* 
+0000000100007b70      d  *UND* 
+0000000100007b70      d  *UND* std::__1::ios_base::rdbuf[abi:ue170004]() const
+0000000000000018      d  *UND* 
+0000000000000018      d  *UND* 
+0000000100007b88      d  *UND* 
+0000000100007b88      d  *UND* std::__1::char_traits<char>::eq_int_type[abi:ue170004](int, int)
+0000000000000028      d  *UND* 
+0000000000000028      d  *UND* 
+0000000100007bb0      d  *UND* 
+0000000100007bb0      d  *UND* std::__1::char_traits<char>::eof[abi:ue170004]()
+0000000000000008      d  *UND* 
+0000000000000008      d  *UND* 
+0000000100007bb8      d  *UND* 
+0000000100007bb8      d  *UND* std::__1::basic_ios<char, std::__1::char_traits<char>>::widen[abi:ue170004](char) const
+0000000000000084      d  *UND* 
+0000000000000084      d  *UND* 
+0000000100007c3c      d  *UND* 
+0000000100007c3c      d  *UND* std::__1::ctype<char> const& std::__1::use_facet[abi:ue170004]<std::__1::ctype<char>>(std::__1::locale const&)
+000000000000002c      d  *UND* 
+000000000000002c      d  *UND* 
+0000000100007c68      d  *UND* 
+0000000100007c68      d  *UND* std::__1::ctype<char>::widen[abi:ue170004](char) const
+0000000000000038      d  *UND* 
+0000000000000038      d  *UND* 
+0000000100007ca0      d  *UND* 
+0000000100007ca0      d  *UND* std::__1::ios_base::setstate[abi:ue170004](unsigned int)
+0000000000000034      d  *UND* 
+0000000000000034      d  *UND* 
+0000000100007cd4      d  *UND* 
+0000000100007cd4      d  *UND* std::__1::__constexpr_strlen[abi:ue170004](char const*)
+0000000000000024      d  *UND* 
+0000000000000024      d  *UND* 
+0000000100007e90      d  *UND* GCC_except_table8
+0000000100007ec4      d  *UND* GCC_except_table9
+0000000100007ed4      d  *UND* GCC_except_table11
+0000000100007eec      d  *UND* GCC_except_table40
+0000000100007efc      d  *UND* GCC_except_table45
+0000000000000000      d  *UND* 
+0000000100000000 g     F __TEXT,__text __mh_execute_header
+0000000100007004 g     F __TEXT,__text _main
+0000000000000000         *UND* __Unwind_Resume
+0000000000000000         *UND* std::__1::locale::use_facet(std::__1::locale::id&) const
+0000000000000000         *UND* std::__1::ios_base::getloc() const
+0000000000000000         *UND* std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::__init(unsigned long, char)
+0000000000000000         *UND* std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>::~basic_string()
+0000000000000000         *UND* std::__1::basic_ostream<char, std::__1::char_traits<char>>::put(char)
+0000000000000000         *UND* std::__1::basic_ostream<char, std::__1::char_traits<char>>::flush()
+0000000000000000         *UND* std::__1::basic_ostream<char, std::__1::char_traits<char>>::sentry::sentry(std::__1::basic_ostream<char, std::__1::char_traits<char>>&)
+0000000000000000         *UND* std::__1::basic_ostream<char, std::__1::char_traits<char>>::sentry::~sentry()
+0000000000000000         *UND* std::__1::cout
+0000000000000000         *UND* std::__1::ctype<char>::id
+0000000000000000         *UND* std::__1::locale::~locale()
+0000000000000000         *UND* std::__1::ios_base::__set_badbit_and_consider_rethrow()
+0000000000000000         *UND* std::__1::ios_base::clear(unsigned int)
+0000000000000000         *UND* std::terminate()
+0000000000000000         *UND* ___cxa_begin_catch
+0000000000000000         *UND* ___cxa_end_catch
+0000000000000000         *UND* ___gxx_personality_v0
+0000000000000000         *UND* _strlen
+0000000000000000         *UND* dyld_stub_binder
