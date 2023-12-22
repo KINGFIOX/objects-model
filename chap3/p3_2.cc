@@ -68,5 +68,10 @@ int main(void)
         reinterpret_cast<F>(vptr[i])();
     }
 
+    F f0 = reinterpret_cast<F>(vptr[0]);
+    F f1 = reinterpret_cast<F>(vptr[1]);
+    F f2 = reinterpret_cast<F>(vptr[2]);
+    F f3 = reinterpret_cast<F>(vptr[3]);
+
     cout << "------------------" << endl;
 }
