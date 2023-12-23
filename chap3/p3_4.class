@@ -1,0 +1,2101 @@
+
+*** Dumping AST Record Layout
+         0 | struct __sbuf
+         0 |   unsigned char * _base
+         8 |   int _size
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct __sFILE
+         0 |   unsigned char * _p
+         8 |   int _r
+        12 |   int _w
+        16 |   short _flags
+        18 |   short _file
+        24 |   struct __sbuf _bf
+        24 |     unsigned char * _base
+        32 |     int _size
+        40 |   int _lbfsize
+        48 |   void * _cookie
+        56 |   int (* _Nullable)(void *) _close
+        64 |   int (* _Nullable)(void *, char *, int) _read
+        72 |   fpos_t (* _Nullable)(void *, fpos_t, int) _seek
+        80 |   int (* _Nullable)(void *, const char *, int) _write
+        88 |   struct __sbuf _ub
+        88 |     unsigned char * _base
+        96 |     int _size
+       104 |   struct __sFILEX * _extra
+       112 |   int _ur
+       116 |   unsigned char[3] _ubuf
+       119 |   unsigned char[1] _nbuf
+       120 |   struct __sbuf _lb
+       120 |     unsigned char * _base
+       128 |     int _size
+       136 |   int _blksize
+       144 |   fpos_t _offset
+           | [sizeof=152, dsize=152, align=8,
+           |  nvsize=152, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::exception
+         0 |   (exception vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::bad_alloc
+         0 |   class std::exception (primary base)
+         0 |     (exception vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::bad_array_new_length
+         0 |   class std::bad_alloc (primary base)
+         0 |     class std::exception (primary base)
+         0 |       (exception vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::exception_ptr
+         0 |   void * __ptr_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::nested_exception
+         0 |   (nested_exception vtable pointer)
+         8 |   class std::exception_ptr __ptr_
+         8 |     void * __ptr_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::piecewise_construct_t (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__value_init_tag (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__less<void, void> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__identity (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__unreachable_sentinel (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__murmur2_or_cityhash<unsigned long> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::_PairT
+         0 |   size_t first
+         8 |   size_t second
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__unary_function_keep_layout_base<struct std::_PairT, unsigned long> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__scalar_hash<struct std::_PairT> (empty)
+         0 |   struct std::__unary_function_keep_layout_base<struct std::_PairT, unsigned long> (base) (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__unary_function_keep_layout_base<float, unsigned long> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__scalar_hash<float> (empty)
+         0 |   struct std::__unary_function_keep_layout_base<float, unsigned long> (base) (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__unary_function_keep_layout_base<double, unsigned long> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__scalar_hash<double> (empty)
+         0 |   struct std::__unary_function_keep_layout_base<double, unsigned long> (base) (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__unary_function_keep_layout_base<long double, unsigned long> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__scalar_hash<long double> (empty)
+         0 |   struct std::__unary_function_keep_layout_base<long double, unsigned long> (base) (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::__libcpp_refstring
+         0 |   const char * __imp_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::logic_error
+         0 |   class std::exception (primary base)
+         0 |     (exception vtable pointer)
+         8 |   class std::__libcpp_refstring __imp_
+         8 |     const char * __imp_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::runtime_error
+         0 |   class std::exception (primary base)
+         0 |     (exception vtable pointer)
+         8 |   class std::__libcpp_refstring __imp_
+         8 |     const char * __imp_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::domain_error
+         0 |   class std::logic_error (primary base)
+         0 |     class std::exception (primary base)
+         0 |       (exception vtable pointer)
+         8 |     class std::__libcpp_refstring __imp_
+         8 |       const char * __imp_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::invalid_argument
+         0 |   class std::logic_error (primary base)
+         0 |     class std::exception (primary base)
+         0 |       (exception vtable pointer)
+         8 |     class std::__libcpp_refstring __imp_
+         8 |       const char * __imp_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::length_error
+         0 |   class std::logic_error (primary base)
+         0 |     class std::exception (primary base)
+         0 |       (exception vtable pointer)
+         8 |     class std::__libcpp_refstring __imp_
+         8 |       const char * __imp_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::out_of_range
+         0 |   class std::logic_error (primary base)
+         0 |     class std::exception (primary base)
+         0 |       (exception vtable pointer)
+         8 |     class std::__libcpp_refstring __imp_
+         8 |       const char * __imp_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::range_error
+         0 |   class std::runtime_error (primary base)
+         0 |     class std::exception (primary base)
+         0 |       (exception vtable pointer)
+         8 |     class std::__libcpp_refstring __imp_
+         8 |       const char * __imp_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::overflow_error
+         0 |   class std::runtime_error (primary base)
+         0 |     class std::exception (primary base)
+         0 |       (exception vtable pointer)
+         8 |     class std::__libcpp_refstring __imp_
+         8 |       const char * __imp_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::underflow_error
+         0 |   class std::runtime_error (primary base)
+         0 |     class std::exception (primary base)
+         0 |       (exception vtable pointer)
+         8 |     class std::__libcpp_refstring __imp_
+         8 |       const char * __imp_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::type_info
+         0 |   (type_info vtable pointer)
+         8 |   __impl::__type_name_t __type_name
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::bad_cast
+         0 |   class std::exception (primary base)
+         0 |     (exception vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::bad_weak_ptr
+         0 |   class std::exception (primary base)
+         0 |     (exception vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__shared_count
+         0 |   (__shared_count vtable pointer)
+         8 |   long __shared_owners_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__shared_weak_count
+         0 |   class std::__shared_count (primary base)
+         0 |     (__shared_count vtable pointer)
+         8 |     long __shared_owners_
+        16 |   long __shared_weak_owners_
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::less<void> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::__sp_mut
+         0 |   void * __lx_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | _RuneRange
+         0 |   int __nranges
+         8 |   _RuneEntry * __ranges
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | _RuneLocale
+         0 |   char[8] __magic
+         8 |   char[32] __encoding
+        40 |   __darwin_rune_t (*)(const char *, __darwin_size_t, const char **) __sgetrune
+        48 |   int (*)(__darwin_rune_t, char *, __darwin_size_t, char **) __sputrune
+        56 |   __darwin_rune_t __invalid_rune
+        60 |   __uint32_t[256] __runetype
+      1084 |   __darwin_rune_t[256] __maplower
+      2108 |   __darwin_rune_t[256] __mapupper
+      3136 |   _RuneRange __runetype_ext
+      3136 |     int __nranges
+      3144 |     _RuneEntry * __ranges
+      3152 |   _RuneRange __maplower_ext
+      3152 |     int __nranges
+      3160 |     _RuneEntry * __ranges
+      3168 |   _RuneRange __mapupper_ext
+      3168 |     int __nranges
+      3176 |     _RuneEntry * __ranges
+      3184 |   void * __variable
+      3192 |   int __variable_len
+      3196 |   int __ncharclasses
+      3200 |   _RuneCharClass * __charclasses
+           | [sizeof=3208, dsize=3208, align=8,
+           |  nvsize=3208, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long, class std::ratio<3600> >
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long double, class std::ratio<3600> >
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long, class std::ratio<60> >
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long double, class std::ratio<60> >
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long long>
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long double>
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long long, class std::ratio<1, 1000> >
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long double, class std::ratio<1, 1000> >
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long long, class std::ratio<1, 1000000> >
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long double, class std::ratio<1, 1000000> >
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long long, class std::ratio<1, 1000000000> >
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::duration<long double, class std::ratio<1, 1000000000> >
+         0 |   rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::chrono::__duration_cast<class std::chrono::duration<long long, class std::ratio<1, 1000000000> >, class std::chrono::duration<long long> > (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::chrono::__duration_cast<class std::chrono::duration<long long>, class std::chrono::duration<long long, class std::ratio<1, 1000000000> > > (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::time_point<class std::chrono::steady_clock, class std::chrono::duration<long long, class std::ratio<1, 1000000000> > >
+         0 |   class std::chrono::duration<long long, class std::ratio<1, 1000000000> > __d_
+         0 |     rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::chrono::__duration_eq<class std::chrono::duration<long long, class std::ratio<1, 1000000000> >, class std::chrono::duration<long long, class std::ratio<1, 1000000000> > > (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::chrono::__duration_lt<class std::chrono::duration<long long, class std::ratio<1, 1000000000> >, class std::chrono::duration<long long, class std::ratio<1, 1000000000> > > (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | union (unnamed at /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/math.h:219:5)
+         0 |   float __f
+         0 |   unsigned int __u
+           | [sizeof=4, dsize=4, align=4,
+           |  nvsize=4, nvalign=4]
+
+*** Dumping AST Record Layout
+         0 | union (unnamed at /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/math.h:224:5)
+         0 |   double __f
+         0 |   unsigned long long __u
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | union (unnamed at /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/math.h:239:5)
+         0 |   long double __f
+         0 |   unsigned long long __u
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct __float2
+         0 |   float __sinval
+         4 |   float __cosval
+           | [sizeof=8, dsize=8, align=4,
+           |  nvsize=8, nvalign=4]
+
+*** Dumping AST Record Layout
+         0 | struct __double2
+         0 |   double __sinval
+         8 |   double __cosval
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct _opaque_pthread_mutexattr_t
+         0 |   long __sig
+         8 |   char[8] __opaque
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct _opaque_pthread_mutex_t
+         0 |   long __sig
+         8 |   char[56] __opaque
+           | [sizeof=64, dsize=64, align=8,
+           |  nvsize=64, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct _opaque_pthread_cond_t
+         0 |   long __sig
+         8 |   char[40] __opaque
+           | [sizeof=48, dsize=48, align=8,
+           |  nvsize=48, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct timespec
+         0 |   __darwin_time_t tv_sec
+         8 |   long tv_nsec
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct _opaque_pthread_once_t
+         0 |   long __sig
+         8 |   char[8] __opaque
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct _opaque_pthread_attr_t
+         0 |   long __sig
+         8 |   char[56] __opaque
+           | [sizeof=64, dsize=64, align=8,
+           |  nvsize=64, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct _opaque_pthread_t
+         0 |   long __sig
+         8 |   struct __darwin_pthread_handler_rec * __cleanup_stack
+        16 |   char[8176] __opaque
+           | [sizeof=8192, dsize=8192, align=8,
+           |  nvsize=8192, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::mutex
+         0 |   struct _opaque_pthread_mutex_t __m_
+         0 |     long __sig
+         8 |     char[56] __opaque
+           | [sizeof=64, dsize=64, align=8,
+           |  nvsize=64, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::defer_lock_t (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::try_to_lock_t (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::adopt_lock_t (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::pmr::memory_resource
+         0 |   (memory_resource vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::allocator_arg_t (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__tuple_indices<> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__tuple_types<> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__ignore_t<unsigned char> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::tuple<> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::in_place_t (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__equal_to (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__libcpp_datasizeof<char>::_FirstPaddingByte<>
+         0 |   char __v_
+         1 |   char __first_padding_byte_
+           | [sizeof=2, dsize=2, align=1,
+           |  nvsize=2, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::input_iterator_tag (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::forward_iterator_tag (empty)
+         0 |   struct std::input_iterator_tag (base) (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::bidirectional_iterator_tag (empty)
+         0 |   struct std::forward_iterator_tag (base) (empty)
+         0 |     struct std::input_iterator_tag (base) (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::random_access_iterator_tag (empty)
+         0 |   struct std::bidirectional_iterator_tag (base) (empty)
+         0 |     struct std::forward_iterator_tag (base) (empty)
+         0 |       struct std::input_iterator_tag (base) (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__libcpp_datasizeof<wchar_t>::_FirstPaddingByte<>
+         0 |   wchar_t __v_
+         4 |   char __first_padding_byte_
+           | [sizeof=8, dsize=8, align=4,
+           |  nvsize=8, nvalign=4]
+
+*** Dumping AST Record Layout
+         0 | struct std::__libcpp_datasizeof<char16_t>::_FirstPaddingByte<>
+         0 |   char16_t __v_
+         2 |   char __first_padding_byte_
+           | [sizeof=4, dsize=4, align=2,
+           |  nvsize=4, nvalign=2]
+
+*** Dumping AST Record Layout
+         0 | struct std::__libcpp_datasizeof<char32_t>::_FirstPaddingByte<>
+         0 |   char32_t __v_
+         4 |   char __first_padding_byte_
+           | [sizeof=8, dsize=8, align=4,
+           |  nvsize=8, nvalign=4]
+
+*** Dumping AST Record Layout
+         0 | std::string_view
+         0 |   const value_type * __data_
+         8 |   size_type __size_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | std::wstring_view
+         0 |   const value_type * __data_
+         8 |   size_type __size_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | std::u16string_view
+         0 |   const value_type * __data_
+         8 |   size_type __size_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | std::u32string_view
+         0 |   const value_type * __data_
+         8 |   size_type __size_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__destruct_n
+         0 |   size_t __size_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::integral_constant<_Bool, false> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::chrono::__duration_lt<class std::chrono::duration<long long, class std::ratio<1, 1000000> >, class std::chrono::duration<long long, class std::ratio<1, 1000000000> > > (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::chrono::__duration_cast<class std::chrono::duration<long long, class std::ratio<1, 1000000> >, class std::chrono::duration<long long, class std::ratio<1, 1000000000> > > (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::execution::__disable_user_instantiations_tag (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::plus<void> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::multiplies<void> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::uniform_int_distribution<long>::param_type
+         0 |   result_type __a_
+         8 |   result_type __b_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::uniform_int_distribution<long>
+         0 |   class std::uniform_int_distribution<long>::param_type __p_
+         0 |     result_type __a_
+         8 |     result_type __b_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__cxx_atomic_base_impl<_Bool>
+         0 |   _Atomic(_Bool) __a_value
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__cxx_atomic_impl<_Bool>
+         0 |   struct std::__cxx_atomic_base_impl<_Bool> (base)
+         0 |     _Atomic(_Bool) __a_value
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::atomic_flag
+         0 |   struct std::__cxx_atomic_impl<_Bool> __a_
+         0 |     struct std::__cxx_atomic_base_impl<_Bool> (base)
+         0 |       _Atomic(_Bool) __a_value
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::bad_variant_access
+         0 |   class std::exception (primary base)
+         0 |     (exception vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::initializer_list<enum std::__variant_detail::_Trait>
+         0 |   const enum std::__variant_detail::_Trait * __begin_
+         8 |   size_t __size_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::in_place_index_t<0> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::integral_constant<_Bool, true> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__default_init_tag (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char>::__long
+         0 |   pointer __data_
+         8 |   size_type __size_
+   16:0-62 |   size_type __cap_
+    23:7-7 |   size_type __is_long_
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char>::__short
+         0 |   value_type[23] __data_
+        23 |   unsigned char[0] __padding_
+    23:0-6 |   unsigned char __size_
+    23:7-7 |   unsigned char __is_long_
+           | [sizeof=24, dsize=24, align=1,
+           |  nvsize=24, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | union std::basic_string<char>::__ulx
+         0 |   struct std::basic_string<char>::__long __lx
+         0 |     pointer __data_
+         8 |     size_type __size_
+   16:0-62 |     size_type __cap_
+    23:7-7 |     size_type __is_long_
+         0 |   struct std::basic_string<char>::__short __lxx
+         0 |     value_type[23] __data_
+        23 |     unsigned char[0] __padding_
+    23:0-6 |     unsigned char __size_
+    23:7-7 |     unsigned char __is_long_
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__non_trivial_if<true, class std::allocator<char> > (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=0, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::allocator<char> (empty)
+         0 |   struct std::__non_trivial_if<true, class std::allocator<char> > (base) (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char>::__raw
+         0 |   size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | union std::basic_string<char>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9)
+         0 |   struct std::basic_string<char>::__long __l
+         0 |     pointer __data_
+         8 |     size_type __size_
+   16:0-62 |     size_type __cap_
+    23:7-7 |     size_type __is_long_
+         0 |   struct std::basic_string<char>::__short __s
+         0 |     value_type[23] __data_
+        23 |     unsigned char[0] __padding_
+    23:0-6 |     unsigned char __size_
+    23:7-7 |     unsigned char __is_long_
+         0 |   struct std::basic_string<char>::__raw __r
+         0 |     size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char>::__rep
+         0 |   union std::basic_string<char>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |     struct std::basic_string<char>::__long __l
+         0 |       pointer __data_
+         8 |       size_type __size_
+   16:0-62 |       size_type __cap_
+    23:7-7 |       size_type __is_long_
+         0 |     struct std::basic_string<char>::__short __s
+         0 |       value_type[23] __data_
+        23 |       unsigned char[0] __padding_
+    23:0-6 |       unsigned char __size_
+    23:7-7 |       unsigned char __is_long_
+         0 |     struct std::basic_string<char>::__raw __r
+         0 |       size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<struct std::basic_string<char>::__rep, 0>
+         0 |   struct std::basic_string<char>::__rep __value_
+         0 |     union std::basic_string<char>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |       struct std::basic_string<char>::__long __l
+         0 |         pointer __data_
+         8 |         size_type __size_
+   16:0-62 |         size_type __cap_
+    23:7-7 |         size_type __is_long_
+         0 |       struct std::basic_string<char>::__short __s
+         0 |         value_type[23] __data_
+        23 |         unsigned char[0] __padding_
+    23:0-6 |         unsigned char __size_
+    23:7-7 |         unsigned char __is_long_
+         0 |       struct std::basic_string<char>::__raw __r
+         0 |         size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<class std::allocator<char>, 1> (empty)
+         0 |   class std::allocator<char> (base) (empty)
+         0 |     struct std::__non_trivial_if<true, class std::allocator<char> > (base) (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::__compressed_pair<struct std::basic_string<char>::__rep, class std::allocator<char> >
+         0 |   struct std::__compressed_pair_elem<struct std::basic_string<char>::__rep, 0> (base)
+         0 |     struct std::basic_string<char>::__rep __value_
+         0 |       union std::basic_string<char>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |         struct std::basic_string<char>::__long __l
+         0 |           pointer __data_
+         8 |           size_type __size_
+   16:0-62 |           size_type __cap_
+    23:7-7 |           size_type __is_long_
+         0 |         struct std::basic_string<char>::__short __s
+         0 |           value_type[23] __data_
+        23 |           unsigned char[0] __padding_
+    23:0-6 |           unsigned char __size_
+    23:7-7 |           unsigned char __is_long_
+         0 |         struct std::basic_string<char>::__raw __r
+         0 |           size_type[3] __words
+         0 |   struct std::__compressed_pair_elem<class std::allocator<char>, 1> (base) (empty)
+         0 |     class std::allocator<char> (base) (empty)
+         0 |       struct std::__non_trivial_if<true, class std::allocator<char> > (base) (empty)
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | std::string
+         0 |   class std::__compressed_pair<struct std::basic_string<char>::__rep, class std::allocator<char> > __r_
+         0 |     struct std::__compressed_pair_elem<struct std::basic_string<char>::__rep, 0> (base)
+         0 |       struct std::basic_string<char>::__rep __value_
+         0 |         union std::basic_string<char>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |           struct std::basic_string<char>::__long __l
+         0 |             pointer __data_
+         8 |             size_type __size_
+   16:0-62 |             size_type __cap_
+    23:7-7 |             size_type __is_long_
+         0 |           struct std::basic_string<char>::__short __s
+         0 |             value_type[23] __data_
+        23 |             unsigned char[0] __padding_
+    23:0-6 |             unsigned char __size_
+    23:7-7 |             unsigned char __is_long_
+         0 |           struct std::basic_string<char>::__raw __r
+         0 |             size_type[3] __words
+         0 |     struct std::__compressed_pair_elem<class std::allocator<char>, 1> (base) (empty)
+         0 |       class std::allocator<char> (base) (empty)
+         0 |         struct std::__non_trivial_if<true, class std::allocator<char> > (base) (empty)
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<wchar_t>::__long
+         0 |   pointer __data_
+         8 |   size_type __size_
+   16:0-62 |   size_type __cap_
+    23:7-7 |   size_type __is_long_
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<wchar_t>::__short
+         0 |   value_type[5] __data_
+        20 |   unsigned char[3] __padding_
+    23:0-6 |   unsigned char __size_
+    23:7-7 |   unsigned char __is_long_
+           | [sizeof=24, dsize=24, align=4,
+           |  nvsize=24, nvalign=4]
+
+*** Dumping AST Record Layout
+         0 | union std::basic_string<wchar_t>::__ulx
+         0 |   struct std::basic_string<wchar_t>::__long __lx
+         0 |     pointer __data_
+         8 |     size_type __size_
+   16:0-62 |     size_type __cap_
+    23:7-7 |     size_type __is_long_
+         0 |   struct std::basic_string<wchar_t>::__short __lxx
+         0 |     value_type[5] __data_
+        20 |     unsigned char[3] __padding_
+    23:0-6 |     unsigned char __size_
+    23:7-7 |     unsigned char __is_long_
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__non_trivial_if<true, class std::allocator<wchar_t> > (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=0, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::allocator<wchar_t> (empty)
+         0 |   struct std::__non_trivial_if<true, class std::allocator<wchar_t> > (base) (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<wchar_t>::__raw
+         0 |   size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | union std::basic_string<wchar_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9)
+         0 |   struct std::basic_string<wchar_t>::__long __l
+         0 |     pointer __data_
+         8 |     size_type __size_
+   16:0-62 |     size_type __cap_
+    23:7-7 |     size_type __is_long_
+         0 |   struct std::basic_string<wchar_t>::__short __s
+         0 |     value_type[5] __data_
+        20 |     unsigned char[3] __padding_
+    23:0-6 |     unsigned char __size_
+    23:7-7 |     unsigned char __is_long_
+         0 |   struct std::basic_string<wchar_t>::__raw __r
+         0 |     size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<wchar_t>::__rep
+         0 |   union std::basic_string<wchar_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |     struct std::basic_string<wchar_t>::__long __l
+         0 |       pointer __data_
+         8 |       size_type __size_
+   16:0-62 |       size_type __cap_
+    23:7-7 |       size_type __is_long_
+         0 |     struct std::basic_string<wchar_t>::__short __s
+         0 |       value_type[5] __data_
+        20 |       unsigned char[3] __padding_
+    23:0-6 |       unsigned char __size_
+    23:7-7 |       unsigned char __is_long_
+         0 |     struct std::basic_string<wchar_t>::__raw __r
+         0 |       size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<struct std::basic_string<wchar_t>::__rep, 0>
+         0 |   struct std::basic_string<wchar_t>::__rep __value_
+         0 |     union std::basic_string<wchar_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |       struct std::basic_string<wchar_t>::__long __l
+         0 |         pointer __data_
+         8 |         size_type __size_
+   16:0-62 |         size_type __cap_
+    23:7-7 |         size_type __is_long_
+         0 |       struct std::basic_string<wchar_t>::__short __s
+         0 |         value_type[5] __data_
+        20 |         unsigned char[3] __padding_
+    23:0-6 |         unsigned char __size_
+    23:7-7 |         unsigned char __is_long_
+         0 |       struct std::basic_string<wchar_t>::__raw __r
+         0 |         size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<class std::allocator<wchar_t>, 1> (empty)
+         0 |   class std::allocator<wchar_t> (base) (empty)
+         0 |     struct std::__non_trivial_if<true, class std::allocator<wchar_t> > (base) (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::__compressed_pair<struct std::basic_string<wchar_t>::__rep, class std::allocator<wchar_t> >
+         0 |   struct std::__compressed_pair_elem<struct std::basic_string<wchar_t>::__rep, 0> (base)
+         0 |     struct std::basic_string<wchar_t>::__rep __value_
+         0 |       union std::basic_string<wchar_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |         struct std::basic_string<wchar_t>::__long __l
+         0 |           pointer __data_
+         8 |           size_type __size_
+   16:0-62 |           size_type __cap_
+    23:7-7 |           size_type __is_long_
+         0 |         struct std::basic_string<wchar_t>::__short __s
+         0 |           value_type[5] __data_
+        20 |           unsigned char[3] __padding_
+    23:0-6 |           unsigned char __size_
+    23:7-7 |           unsigned char __is_long_
+         0 |         struct std::basic_string<wchar_t>::__raw __r
+         0 |           size_type[3] __words
+         0 |   struct std::__compressed_pair_elem<class std::allocator<wchar_t>, 1> (base) (empty)
+         0 |     class std::allocator<wchar_t> (base) (empty)
+         0 |       struct std::__non_trivial_if<true, class std::allocator<wchar_t> > (base) (empty)
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | std::wstring
+         0 |   class std::__compressed_pair<struct std::basic_string<wchar_t>::__rep, class std::allocator<wchar_t> > __r_
+         0 |     struct std::__compressed_pair_elem<struct std::basic_string<wchar_t>::__rep, 0> (base)
+         0 |       struct std::basic_string<wchar_t>::__rep __value_
+         0 |         union std::basic_string<wchar_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |           struct std::basic_string<wchar_t>::__long __l
+         0 |             pointer __data_
+         8 |             size_type __size_
+   16:0-62 |             size_type __cap_
+    23:7-7 |             size_type __is_long_
+         0 |           struct std::basic_string<wchar_t>::__short __s
+         0 |             value_type[5] __data_
+        20 |             unsigned char[3] __padding_
+    23:0-6 |             unsigned char __size_
+    23:7-7 |             unsigned char __is_long_
+         0 |           struct std::basic_string<wchar_t>::__raw __r
+         0 |             size_type[3] __words
+         0 |     struct std::__compressed_pair_elem<class std::allocator<wchar_t>, 1> (base) (empty)
+         0 |       class std::allocator<wchar_t> (base) (empty)
+         0 |         struct std::__non_trivial_if<true, class std::allocator<wchar_t> > (base) (empty)
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__init_with_sentinel_tag (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__uninitialized_size_tag (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char16_t>::__long
+         0 |   pointer __data_
+         8 |   size_type __size_
+   16:0-62 |   size_type __cap_
+    23:7-7 |   size_type __is_long_
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char16_t>::__short
+         0 |   value_type[11] __data_
+        22 |   unsigned char[1] __padding_
+    23:0-6 |   unsigned char __size_
+    23:7-7 |   unsigned char __is_long_
+           | [sizeof=24, dsize=24, align=2,
+           |  nvsize=24, nvalign=2]
+
+*** Dumping AST Record Layout
+         0 | union std::basic_string<char16_t>::__ulx
+         0 |   struct std::basic_string<char16_t>::__long __lx
+         0 |     pointer __data_
+         8 |     size_type __size_
+   16:0-62 |     size_type __cap_
+    23:7-7 |     size_type __is_long_
+         0 |   struct std::basic_string<char16_t>::__short __lxx
+         0 |     value_type[11] __data_
+        22 |     unsigned char[1] __padding_
+    23:0-6 |     unsigned char __size_
+    23:7-7 |     unsigned char __is_long_
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__non_trivial_if<true, class std::allocator<char16_t> > (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=0, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::allocator<char16_t> (empty)
+         0 |   struct std::__non_trivial_if<true, class std::allocator<char16_t> > (base) (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char16_t>::__raw
+         0 |   size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | union std::basic_string<char16_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9)
+         0 |   struct std::basic_string<char16_t>::__long __l
+         0 |     pointer __data_
+         8 |     size_type __size_
+   16:0-62 |     size_type __cap_
+    23:7-7 |     size_type __is_long_
+         0 |   struct std::basic_string<char16_t>::__short __s
+         0 |     value_type[11] __data_
+        22 |     unsigned char[1] __padding_
+    23:0-6 |     unsigned char __size_
+    23:7-7 |     unsigned char __is_long_
+         0 |   struct std::basic_string<char16_t>::__raw __r
+         0 |     size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char16_t>::__rep
+         0 |   union std::basic_string<char16_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |     struct std::basic_string<char16_t>::__long __l
+         0 |       pointer __data_
+         8 |       size_type __size_
+   16:0-62 |       size_type __cap_
+    23:7-7 |       size_type __is_long_
+         0 |     struct std::basic_string<char16_t>::__short __s
+         0 |       value_type[11] __data_
+        22 |       unsigned char[1] __padding_
+    23:0-6 |       unsigned char __size_
+    23:7-7 |       unsigned char __is_long_
+         0 |     struct std::basic_string<char16_t>::__raw __r
+         0 |       size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<struct std::basic_string<char16_t>::__rep, 0>
+         0 |   struct std::basic_string<char16_t>::__rep __value_
+         0 |     union std::basic_string<char16_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |       struct std::basic_string<char16_t>::__long __l
+         0 |         pointer __data_
+         8 |         size_type __size_
+   16:0-62 |         size_type __cap_
+    23:7-7 |         size_type __is_long_
+         0 |       struct std::basic_string<char16_t>::__short __s
+         0 |         value_type[11] __data_
+        22 |         unsigned char[1] __padding_
+    23:0-6 |         unsigned char __size_
+    23:7-7 |         unsigned char __is_long_
+         0 |       struct std::basic_string<char16_t>::__raw __r
+         0 |         size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<class std::allocator<char16_t>, 1> (empty)
+         0 |   class std::allocator<char16_t> (base) (empty)
+         0 |     struct std::__non_trivial_if<true, class std::allocator<char16_t> > (base) (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::__compressed_pair<struct std::basic_string<char16_t>::__rep, class std::allocator<char16_t> >
+         0 |   struct std::__compressed_pair_elem<struct std::basic_string<char16_t>::__rep, 0> (base)
+         0 |     struct std::basic_string<char16_t>::__rep __value_
+         0 |       union std::basic_string<char16_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |         struct std::basic_string<char16_t>::__long __l
+         0 |           pointer __data_
+         8 |           size_type __size_
+   16:0-62 |           size_type __cap_
+    23:7-7 |           size_type __is_long_
+         0 |         struct std::basic_string<char16_t>::__short __s
+         0 |           value_type[11] __data_
+        22 |           unsigned char[1] __padding_
+    23:0-6 |           unsigned char __size_
+    23:7-7 |           unsigned char __is_long_
+         0 |         struct std::basic_string<char16_t>::__raw __r
+         0 |           size_type[3] __words
+         0 |   struct std::__compressed_pair_elem<class std::allocator<char16_t>, 1> (base) (empty)
+         0 |     class std::allocator<char16_t> (base) (empty)
+         0 |       struct std::__non_trivial_if<true, class std::allocator<char16_t> > (base) (empty)
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | std::u16string
+         0 |   class std::__compressed_pair<struct std::basic_string<char16_t>::__rep, class std::allocator<char16_t> > __r_
+         0 |     struct std::__compressed_pair_elem<struct std::basic_string<char16_t>::__rep, 0> (base)
+         0 |       struct std::basic_string<char16_t>::__rep __value_
+         0 |         union std::basic_string<char16_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |           struct std::basic_string<char16_t>::__long __l
+         0 |             pointer __data_
+         8 |             size_type __size_
+   16:0-62 |             size_type __cap_
+    23:7-7 |             size_type __is_long_
+         0 |           struct std::basic_string<char16_t>::__short __s
+         0 |             value_type[11] __data_
+        22 |             unsigned char[1] __padding_
+    23:0-6 |             unsigned char __size_
+    23:7-7 |             unsigned char __is_long_
+         0 |           struct std::basic_string<char16_t>::__raw __r
+         0 |             size_type[3] __words
+         0 |     struct std::__compressed_pair_elem<class std::allocator<char16_t>, 1> (base) (empty)
+         0 |       class std::allocator<char16_t> (base) (empty)
+         0 |         struct std::__non_trivial_if<true, class std::allocator<char16_t> > (base) (empty)
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char32_t>::__long
+         0 |   pointer __data_
+         8 |   size_type __size_
+   16:0-62 |   size_type __cap_
+    23:7-7 |   size_type __is_long_
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char32_t>::__short
+         0 |   value_type[5] __data_
+        20 |   unsigned char[3] __padding_
+    23:0-6 |   unsigned char __size_
+    23:7-7 |   unsigned char __is_long_
+           | [sizeof=24, dsize=24, align=4,
+           |  nvsize=24, nvalign=4]
+
+*** Dumping AST Record Layout
+         0 | union std::basic_string<char32_t>::__ulx
+         0 |   struct std::basic_string<char32_t>::__long __lx
+         0 |     pointer __data_
+         8 |     size_type __size_
+   16:0-62 |     size_type __cap_
+    23:7-7 |     size_type __is_long_
+         0 |   struct std::basic_string<char32_t>::__short __lxx
+         0 |     value_type[5] __data_
+        20 |     unsigned char[3] __padding_
+    23:0-6 |     unsigned char __size_
+    23:7-7 |     unsigned char __is_long_
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__non_trivial_if<true, class std::allocator<char32_t> > (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=0, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::allocator<char32_t> (empty)
+         0 |   struct std::__non_trivial_if<true, class std::allocator<char32_t> > (base) (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char32_t>::__raw
+         0 |   size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | union std::basic_string<char32_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9)
+         0 |   struct std::basic_string<char32_t>::__long __l
+         0 |     pointer __data_
+         8 |     size_type __size_
+   16:0-62 |     size_type __cap_
+    23:7-7 |     size_type __is_long_
+         0 |   struct std::basic_string<char32_t>::__short __s
+         0 |     value_type[5] __data_
+        20 |     unsigned char[3] __padding_
+    23:0-6 |     unsigned char __size_
+    23:7-7 |     unsigned char __is_long_
+         0 |   struct std::basic_string<char32_t>::__raw __r
+         0 |     size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::basic_string<char32_t>::__rep
+         0 |   union std::basic_string<char32_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |     struct std::basic_string<char32_t>::__long __l
+         0 |       pointer __data_
+         8 |       size_type __size_
+   16:0-62 |       size_type __cap_
+    23:7-7 |       size_type __is_long_
+         0 |     struct std::basic_string<char32_t>::__short __s
+         0 |       value_type[5] __data_
+        20 |       unsigned char[3] __padding_
+    23:0-6 |       unsigned char __size_
+    23:7-7 |       unsigned char __is_long_
+         0 |     struct std::basic_string<char32_t>::__raw __r
+         0 |       size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<struct std::basic_string<char32_t>::__rep, 0>
+         0 |   struct std::basic_string<char32_t>::__rep __value_
+         0 |     union std::basic_string<char32_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |       struct std::basic_string<char32_t>::__long __l
+         0 |         pointer __data_
+         8 |         size_type __size_
+   16:0-62 |         size_type __cap_
+    23:7-7 |         size_type __is_long_
+         0 |       struct std::basic_string<char32_t>::__short __s
+         0 |         value_type[5] __data_
+        20 |         unsigned char[3] __padding_
+    23:0-6 |         unsigned char __size_
+    23:7-7 |         unsigned char __is_long_
+         0 |       struct std::basic_string<char32_t>::__raw __r
+         0 |         size_type[3] __words
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<class std::allocator<char32_t>, 1> (empty)
+         0 |   class std::allocator<char32_t> (base) (empty)
+         0 |     struct std::__non_trivial_if<true, class std::allocator<char32_t> > (base) (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::__compressed_pair<struct std::basic_string<char32_t>::__rep, class std::allocator<char32_t> >
+         0 |   struct std::__compressed_pair_elem<struct std::basic_string<char32_t>::__rep, 0> (base)
+         0 |     struct std::basic_string<char32_t>::__rep __value_
+         0 |       union std::basic_string<char32_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |         struct std::basic_string<char32_t>::__long __l
+         0 |           pointer __data_
+         8 |           size_type __size_
+   16:0-62 |           size_type __cap_
+    23:7-7 |           size_type __is_long_
+         0 |         struct std::basic_string<char32_t>::__short __s
+         0 |           value_type[5] __data_
+        20 |           unsigned char[3] __padding_
+    23:0-6 |           unsigned char __size_
+    23:7-7 |           unsigned char __is_long_
+         0 |         struct std::basic_string<char32_t>::__raw __r
+         0 |           size_type[3] __words
+         0 |   struct std::__compressed_pair_elem<class std::allocator<char32_t>, 1> (base) (empty)
+         0 |     class std::allocator<char32_t> (base) (empty)
+         0 |       struct std::__non_trivial_if<true, class std::allocator<char32_t> > (base) (empty)
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | std::u32string
+         0 |   class std::__compressed_pair<struct std::basic_string<char32_t>::__rep, class std::allocator<char32_t> > __r_
+         0 |     struct std::__compressed_pair_elem<struct std::basic_string<char32_t>::__rep, 0> (base)
+         0 |       struct std::basic_string<char32_t>::__rep __value_
+         0 |         union std::basic_string<char32_t>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+         0 |           struct std::basic_string<char32_t>::__long __l
+         0 |             pointer __data_
+         8 |             size_type __size_
+   16:0-62 |             size_type __cap_
+    23:7-7 |             size_type __is_long_
+         0 |           struct std::basic_string<char32_t>::__short __s
+         0 |             value_type[5] __data_
+        20 |             unsigned char[3] __padding_
+    23:0-6 |             unsigned char __size_
+    23:7-7 |             unsigned char __is_long_
+         0 |           struct std::basic_string<char32_t>::__raw __r
+         0 |             size_type[3] __words
+         0 |     struct std::__compressed_pair_elem<class std::allocator<char32_t>, 1> (base) (empty)
+         0 |       class std::allocator<char32_t> (base) (empty)
+         0 |         struct std::__non_trivial_if<true, class std::allocator<char32_t> > (base) (empty)
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::error_category
+         0 |   (error_category vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__do_message
+         0 |   class std::error_category (primary base)
+         0 |     (error_category vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::error_condition
+         0 |   int __val_
+         8 |   const error_category * __cat_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::error_code
+         0 |   int __val_
+         8 |   const error_category * __cat_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::condition_variable
+         0 |   struct _opaque_pthread_cond_t __cv_
+         0 |     long __sig
+         8 |     char[40] __opaque
+           | [sizeof=48, dsize=48, align=8,
+           |  nvsize=48, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::time_point<class std::chrono::system_clock>
+         0 |   class std::chrono::duration<long long, class std::ratio<1, 1000000> > __d_
+         0 |     rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::chrono::time_point<class std::chrono::system_clock, class std::chrono::duration<long long, class std::ratio<1, 1000000000> > >
+         0 |   class std::chrono::duration<long long, class std::ratio<1, 1000000000> > __d_
+         0 |     rep __rep_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__thread_id
+         0 |   __libcpp_thread_id __id_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::unique_lock<class std::mutex>
+         0 |   mutex_type * __m_
+         8 |   _Bool __owns_
+           | [sizeof=16, dsize=9, align=8,
+           |  nvsize=9, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::once_flag
+         0 |   _State_type __state_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::locale
+         0 |   __imp * __locale_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::locale::id
+         0 |   struct std::once_flag __flag_
+         0 |     _State_type __state_
+         8 |   int32_t __id_
+           | [sizeof=16, dsize=12, align=8,
+           |  nvsize=12, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::locale::facet
+         0 |   class std::__shared_count (primary base)
+         0 |     (__shared_count vtable pointer)
+         8 |     long __shared_owners_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::ctype_base (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=0, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::ctype<wchar_t>
+         0 |   class std::locale::facet (primary base)
+         0 |     class std::__shared_count (primary base)
+         0 |       (__shared_count vtable pointer)
+         8 |       long __shared_owners_
+         0 |   class std::ctype_base (base) (empty)
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::ctype<char>
+         0 |   class std::locale::facet (primary base)
+         0 |     class std::__shared_count (primary base)
+         0 |       (__shared_count vtable pointer)
+         8 |       long __shared_owners_
+         0 |   class std::ctype_base (base) (empty)
+        16 |   const mask * __tab_
+        24 |   _Bool __del_
+           | [sizeof=32, dsize=25, align=8,
+           |  nvsize=25, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::codecvt_base (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=0, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::codecvt<char, char, mbstate_t>
+         0 |   class std::locale::facet (primary base)
+         0 |     class std::__shared_count (primary base)
+         0 |       (__shared_count vtable pointer)
+         8 |       long __shared_owners_
+         0 |   class std::codecvt_base (base) (empty)
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | __mbstate_t
+         0 |   char[128] __mbstate8
+         0 |   long long _mbstateL
+           | [sizeof=128, dsize=128, align=8,
+           |  nvsize=128, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::codecvt<wchar_t, char, mbstate_t>
+         0 |   class std::locale::facet (primary base)
+         0 |     class std::__shared_count (primary base)
+         0 |       (__shared_count vtable pointer)
+         8 |       long __shared_owners_
+         0 |   class std::codecvt_base (base) (empty)
+        16 |   locale_t __l_
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::codecvt<char16_t, char, mbstate_t>
+         0 |   class std::locale::facet (primary base)
+         0 |     class std::__shared_count (primary base)
+         0 |       (__shared_count vtable pointer)
+         8 |       long __shared_owners_
+         0 |   class std::codecvt_base (base) (empty)
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::codecvt<char32_t, char, mbstate_t>
+         0 |   class std::locale::facet (primary base)
+         0 |     class std::__shared_count (primary base)
+         0 |       (__shared_count vtable pointer)
+         8 |       long __shared_owners_
+         0 |   class std::codecvt_base (base) (empty)
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::numpunct<char>
+         0 |   class std::locale::facet (primary base)
+         0 |     class std::__shared_count (primary base)
+         0 |       (__shared_count vtable pointer)
+         8 |       long __shared_owners_
+        16 |   char_type __decimal_point_
+        17 |   char_type __thousands_sep_
+        24 |   std::string __grouping_
+        24 |     class std::__compressed_pair<struct std::basic_string<char>::__rep, class std::allocator<char> > __r_
+        24 |       struct std::__compressed_pair_elem<struct std::basic_string<char>::__rep, 0> (base)
+        24 |         struct std::basic_string<char>::__rep __value_
+        24 |           union std::basic_string<char>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+        24 |             struct std::basic_string<char>::__long __l
+        24 |               pointer __data_
+        32 |               size_type __size_
+   40:0-62 |               size_type __cap_
+    47:7-7 |               size_type __is_long_
+        24 |             struct std::basic_string<char>::__short __s
+        24 |               value_type[23] __data_
+        47 |               unsigned char[0] __padding_
+    47:0-6 |               unsigned char __size_
+    47:7-7 |               unsigned char __is_long_
+        24 |             struct std::basic_string<char>::__raw __r
+        24 |               size_type[3] __words
+        24 |       struct std::__compressed_pair_elem<class std::allocator<char>, 1> (base) (empty)
+        24 |         class std::allocator<char> (base) (empty)
+        24 |           struct std::__non_trivial_if<true, class std::allocator<char> > (base) (empty)
+           | [sizeof=48, dsize=48, align=8,
+           |  nvsize=48, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::numpunct<wchar_t>
+         0 |   class std::locale::facet (primary base)
+         0 |     class std::__shared_count (primary base)
+         0 |       (__shared_count vtable pointer)
+         8 |       long __shared_owners_
+        16 |   char_type __decimal_point_
+        20 |   char_type __thousands_sep_
+        24 |   std::string __grouping_
+        24 |     class std::__compressed_pair<struct std::basic_string<char>::__rep, class std::allocator<char> > __r_
+        24 |       struct std::__compressed_pair_elem<struct std::basic_string<char>::__rep, 0> (base)
+        24 |         struct std::basic_string<char>::__rep __value_
+        24 |           union std::basic_string<char>::__rep::(anonymous at /opt/homebrew/opt/llvm/bin/../include/c++/v1/string:831:9) 
+        24 |             struct std::basic_string<char>::__long __l
+        24 |               pointer __data_
+        32 |               size_type __size_
+   40:0-62 |               size_type __cap_
+    47:7-7 |               size_type __is_long_
+        24 |             struct std::basic_string<char>::__short __s
+        24 |               value_type[23] __data_
+        47 |               unsigned char[0] __padding_
+    47:0-6 |               unsigned char __size_
+    47:7-7 |               unsigned char __is_long_
+        24 |             struct std::basic_string<char>::__raw __r
+        24 |               size_type[3] __words
+        24 |       struct std::__compressed_pair_elem<class std::allocator<char>, 1> (base) (empty)
+        24 |         class std::allocator<char> (base) (empty)
+        24 |           struct std::__non_trivial_if<true, class std::allocator<char> > (base) (empty)
+           | [sizeof=48, dsize=48, align=8,
+           |  nvsize=48, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::ios_base
+         0 |   (ios_base vtable pointer)
+         8 |   fmtflags __fmtflags_
+        16 |   streamsize __precision_
+        24 |   streamsize __width_
+        32 |   iostate __rdstate_
+        36 |   iostate __exceptions_
+        40 |   void * __rdbuf_
+        48 |   void * __loc_
+        56 |   event_callback * __fn_
+        64 |   int * __index_
+        72 |   size_t __event_size_
+        80 |   size_t __event_cap_
+        88 |   long * __iarray_
+        96 |   size_t __iarray_size_
+       104 |   size_t __iarray_cap_
+       112 |   void ** __parray_
+       120 |   size_t __parray_size_
+       128 |   size_t __parray_cap_
+           | [sizeof=136, dsize=136, align=8,
+           |  nvsize=136, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::system_error
+         0 |   class std::runtime_error (primary base)
+         0 |     class std::exception (primary base)
+         0 |       (exception vtable pointer)
+         8 |     class std::__libcpp_refstring __imp_
+         8 |       const char * __imp_
+        16 |   class std::error_code __ec_
+        16 |     int __val_
+        24 |     const error_category * __cat_
+           | [sizeof=32, dsize=32, align=8,
+           |  nvsize=32, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::ios_base::failure
+         0 |   class std::system_error (primary base)
+         0 |     class std::runtime_error (primary base)
+         0 |       class std::exception (primary base)
+         0 |         (exception vtable pointer)
+         8 |       class std::__libcpp_refstring __imp_
+         8 |         const char * __imp_
+        16 |     class std::error_code __ec_
+        16 |       int __val_
+        24 |       const error_category * __cat_
+           | [sizeof=32, dsize=32, align=8,
+           |  nvsize=32, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__bit_reference<class std::__bitset<0, 0> >
+         0 |   __storage_pointer __seg_
+         8 |   __storage_type __mask_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__bit_const_reference<class std::__bitset<0, 0> >
+         0 |   __storage_pointer __seg_
+         8 |   __storage_type __mask_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__bit_iterator<class std::__bitset<0, 0>, false>
+         0 |   __storage_pointer __seg_
+         8 |   unsigned int __ctz_
+           | [sizeof=16, dsize=12, align=8,
+           |  nvsize=12, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__bit_iterator<class std::__bitset<0, 0>, true>
+         0 |   __storage_pointer __seg_
+         8 |   unsigned int __ctz_
+           | [sizeof=16, dsize=12, align=8,
+           |  nvsize=12, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__bitset<0, 0> (empty)
+           | [sizeof=1, dsize=0, align=1,
+           |  nvsize=0, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<unsigned char *, 0>
+         0 |   unsigned char * __value_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<void (*)(void *), 1>
+         0 |   void (*)(void *) __value_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__compressed_pair<unsigned char *, void (*)(void *)>
+         0 |   struct std::__compressed_pair_elem<unsigned char *, 0> (base)
+         0 |     unsigned char * __value_
+         8 |   struct std::__compressed_pair_elem<void (*)(void *), 1> (base)
+         8 |     void (*)(void *) __value_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::unique_ptr<unsigned char, void (*)(void *)>
+         0 |   class std::__compressed_pair<unsigned char *, void (*)(void *)> __ptr_
+         0 |     struct std::__compressed_pair_elem<unsigned char *, 0> (base)
+         0 |       unsigned char * __value_
+         8 |     struct std::__compressed_pair_elem<void (*)(void *), 1> (base)
+         8 |       void (*)(void *) __value_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<char *, 0>
+         0 |   char * __value_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__compressed_pair<char *, void (*)(void *)>
+         0 |   struct std::__compressed_pair_elem<char *, 0> (base)
+         0 |     char * __value_
+         8 |   struct std::__compressed_pair_elem<void (*)(void *), 1> (base)
+         8 |     void (*)(void *) __value_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::unique_ptr<char, void (*)(void *)>
+         0 |   class std::__compressed_pair<char *, void (*)(void *)> __ptr_
+         0 |     struct std::__compressed_pair_elem<char *, 0> (base)
+         0 |       char * __value_
+         8 |     struct std::__compressed_pair_elem<void (*)(void *), 1> (base)
+         8 |       void (*)(void *) __value_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__time_put
+         0 |   locale_t __loc_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::money_base::pattern
+         0 |   char[4] field
+           | [sizeof=4, dsize=4, align=1,
+           |  nvsize=4, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__compressed_pair_elem<unsigned int *, 0>
+         0 |   unsigned int * __value_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::__compressed_pair<unsigned int *, void (*)(void *)>
+         0 |   struct std::__compressed_pair_elem<unsigned int *, 0> (base)
+         0 |     unsigned int * __value_
+         8 |   struct std::__compressed_pair_elem<void (*)(void *), 1> (base)
+         8 |     void (*)(void *) __value_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::unique_ptr<unsigned int, void (*)(void *)>
+         0 |   class std::__compressed_pair<unsigned int *, void (*)(void *)> __ptr_
+         0 |     struct std::__compressed_pair_elem<unsigned int *, 0> (base)
+         0 |       unsigned int * __value_
+         8 |     struct std::__compressed_pair_elem<void (*)(void *), 1> (base)
+         8 |       void (*)(void *) __value_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | std::streambuf
+         0 |   (basic_streambuf vtable pointer)
+         8 |   class std::locale __loc_
+         8 |     __imp * __locale_
+        16 |   char_type * __binp_
+        24 |   char_type * __ninp_
+        32 |   char_type * __einp_
+        40 |   char_type * __bout_
+        48 |   char_type * __nout_
+        56 |   char_type * __eout_
+           | [sizeof=64, dsize=64, align=8,
+           |  nvsize=64, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | std::ios
+         0 |   class std::ios_base (primary base)
+         0 |     (ios_base vtable pointer)
+         8 |     fmtflags __fmtflags_
+        16 |     streamsize __precision_
+        24 |     streamsize __width_
+        32 |     iostate __rdstate_
+        36 |     iostate __exceptions_
+        40 |     void * __rdbuf_
+        48 |     void * __loc_
+        56 |     event_callback * __fn_
+        64 |     int * __index_
+        72 |     size_t __event_size_
+        80 |     size_t __event_cap_
+        88 |     long * __iarray_
+        96 |     size_t __iarray_size_
+       104 |     size_t __iarray_cap_
+       112 |     void ** __parray_
+       120 |     size_t __parray_size_
+       128 |     size_t __parray_cap_
+       136 |   basic_ostream<char_type, traits_type> * __tie_
+       144 |   int_type __fill_
+           | [sizeof=152, dsize=148, align=8,
+           |  nvsize=148, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | std::ostream
+         0 |   (basic_ostream vtable pointer)
+         8 |   std::ios (virtual base)
+         8 |     class std::ios_base (primary base)
+         8 |       (ios_base vtable pointer)
+        16 |       fmtflags __fmtflags_
+        24 |       streamsize __precision_
+        32 |       streamsize __width_
+        40 |       iostate __rdstate_
+        44 |       iostate __exceptions_
+        48 |       void * __rdbuf_
+        56 |       void * __loc_
+        64 |       event_callback * __fn_
+        72 |       int * __index_
+        80 |       size_t __event_size_
+        88 |       size_t __event_cap_
+        96 |       long * __iarray_
+       104 |       size_t __iarray_size_
+       112 |       size_t __iarray_cap_
+       120 |       void ** __parray_
+       128 |       size_t __parray_size_
+       136 |       size_t __parray_cap_
+       144 |     basic_ostream<char_type, traits_type> * __tie_
+       152 |     int_type __fill_
+           | [sizeof=160, dsize=156, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class Base1
+         0 |   (Base1 vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class Base2
+         0 |   (Base2 vtable pointer)
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class Derived
+         0 |   class Base1 (primary base)
+         0 |     (Base1 vtable pointer)
+         8 |   class Base2 (base)
+         8 |     (Base2 vtable pointer)
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct (unnamed at /opt/homebrew/opt/llvm/bin/../include/c++/v1/__functional/hash.h:313:13)
+         0 |   size_t __a
+         8 |   size_t __b
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | union (unnamed at /opt/homebrew/opt/llvm/bin/../include/c++/v1/__functional/hash.h:310:9)
+         0 |   struct std::_PairT __t
+         0 |     size_t first
+         8 |     size_t second
+         0 |   struct (unnamed at /opt/homebrew/opt/llvm/bin/../include/c++/v1/__functional/hash.h:313:13) __s
+         0 |     size_t __a
+         8 |     size_t __b
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::pair<unsigned long, unsigned long>
+         0 |   unsigned long first
+         8 |   unsigned long second
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | union (unnamed at /opt/homebrew/opt/llvm/bin/../include/c++/v1/__functional/hash.h:275:9)
+         0 |   float __t
+         0 |   size_t __a
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | union (unnamed at /opt/homebrew/opt/llvm/bin/../include/c++/v1/__functional/hash.h:293:9)
+         0 |   double __t
+         0 |   size_t __a
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | union (unnamed at /opt/homebrew/opt/llvm/bin/../include/c++/v1/__functional/hash.h:293:9)
+         0 |   long double __t
+         0 |   size_t __a
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::pair<const char *, const char *>
+         0 |   const char * first
+         8 |   const char * second
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__copy_loop<struct std::_ClassicAlgPolicy> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__copy_trivial (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::__overload<struct std::__copy_loop<struct std::_ClassicAlgPolicy>, struct std::__copy_trivial> (empty)
+         0 |   struct std::__copy_loop<struct std::_ClassicAlgPolicy> (base) (empty)
+         0 |   struct std::__copy_trivial (base) (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | struct std::pair<const char *, char *>
+         0 |   const char * first
+         8 |   char * second
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::pair<const wchar_t *, const wchar_t *>
+         0 |   const wchar_t * first
+         8 |   const wchar_t * second
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::pair<const wchar_t *, wchar_t *>
+         0 |   const wchar_t * first
+         8 |   wchar_t * second
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::pair<const char16_t *, const char16_t *>
+         0 |   const char16_t * first
+         8 |   const char16_t * second
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::pair<const char16_t *, char16_t *>
+         0 |   const char16_t * first
+         8 |   char16_t * second
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::pair<const char32_t *, const char32_t *>
+         0 |   const char32_t * first
+         8 |   const char32_t * second
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::pair<const char32_t *, char32_t *>
+         0 |   const char32_t * first
+         8 |   char32_t * second
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__cxx_atomic_wait_test_fn_impl<const volatile struct std::__cxx_atomic_impl<_Bool>, _Bool>
+         0 |   const volatile struct std::__cxx_atomic_impl<_Bool> * __a
+         8 |   _Bool __val
+        12 |   memory_order __order
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__libcpp_atomic_wait_backoff_impl<const volatile struct std::__cxx_atomic_impl<_Bool>, struct std::__cxx_atomic_wait_test_fn_impl<const volatile struct std::__cxx_atomic_impl<_Bool>, _Bool> >
+         0 |   const volatile struct std::__cxx_atomic_impl<_Bool> * __a
+         8 |   struct std::__cxx_atomic_wait_test_fn_impl<const volatile struct std::__cxx_atomic_impl<_Bool>, _Bool> __test_fn
+         8 |     const volatile struct std::__cxx_atomic_impl<_Bool> * __a
+        16 |     _Bool __val
+        20 |     memory_order __order
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__cxx_atomic_wait_test_fn_impl<const struct std::__cxx_atomic_impl<_Bool>, _Bool>
+         0 |   const struct std::__cxx_atomic_impl<_Bool> * __a
+         8 |   _Bool __val
+        12 |   memory_order __order
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__libcpp_atomic_wait_backoff_impl<const struct std::__cxx_atomic_impl<_Bool>, struct std::__cxx_atomic_wait_test_fn_impl<const struct std::__cxx_atomic_impl<_Bool>, _Bool> >
+         0 |   const struct std::__cxx_atomic_impl<_Bool> * __a
+         8 |   struct std::__cxx_atomic_wait_test_fn_impl<const struct std::__cxx_atomic_impl<_Bool>, _Bool> __test_fn
+         8 |     const struct std::__cxx_atomic_impl<_Bool> * __a
+        16 |     _Bool __val
+        20 |     memory_order __order
+           | [sizeof=24, dsize=24, align=8,
+           |  nvsize=24, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__allocation_result<char *>
+         0 |   char * ptr
+         8 |   size_t count
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__allocation_result<wchar_t *>
+         0 |   wchar_t * ptr
+         8 |   size_t count
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__allocation_result<char16_t *>
+         0 |   char16_t * ptr
+         8 |   size_t count
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::__allocation_result<char32_t *>
+         0 |   char32_t * ptr
+         8 |   size_t count
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | class std::basic_ostream<char>::sentry
+         0 |   _Bool __ok_
+         8 |   basic_ostream<char, char_traits<char> > & __os_
+           | [sizeof=16, dsize=16, align=8,
+           |  nvsize=16, nvalign=8]
+
+*** Dumping AST Record Layout
+         0 | struct std::iterator<struct std::output_iterator_tag, void, void, void, void> (empty)
+           | [sizeof=1, dsize=1, align=1,
+           |  nvsize=1, nvalign=1]
+
+*** Dumping AST Record Layout
+         0 | class std::ostreambuf_iterator<char>
+         0 |   struct std::iterator<struct std::output_iterator_tag, void, void, void, void> (base) (empty)
+         0 |   streambuf_type * __sbuf_
+           | [sizeof=8, dsize=8, align=8,
+           |  nvsize=8, nvalign=8]

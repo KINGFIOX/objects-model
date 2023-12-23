@@ -1,3 +1,4 @@
+#include <cstdio>
 #include <iostream>
 
 using namespace std;
@@ -99,6 +100,7 @@ int main(void)
 
     cout << "vptr2" << endl;
 
+    // 突然发现一个比较有趣的事情，就是我用lldb调试，这个地址每次都是一样的
     Func f00 = (Func)vptr2[0]; // (Func) 0x0000000100007044 (p3_4.out`Base2::h() at p3_4.cc:22)
     Func f11 = (Func)vptr2[1]; // (Func) 0x0000000100007080 (p3_4.out`non-virtual thunk to Derived::i() at p3_4.cc)
     Func f22 = (Func)vptr2[2]; // 非法
