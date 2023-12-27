@@ -19,10 +19,13 @@ RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so
 EXPOSE 22
 
 # C++开发环境
-# RUN sudo apt install -y build-essential \
-#     && apt-get install -y cmake \
-#     && apt-get install -y gdb \
-#     && apt-get install -y clang 
+RUN sudo apt install -y build-essential \
+    && apt-get install -y cmake \
+    && apt-get install -y llvm \
+    && apt-get install -y clang \
+    && apt-get install -y clang-format \
+    && apt-get install -y clangd \
+    && apt-get install -y gdb lldb
 
 # 启动SSH服务
 CMD ["/usr/sbin/sshd", "-D"]
