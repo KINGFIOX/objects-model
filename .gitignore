@@ -3,3 +3,4 @@
 *.out
 *.class
 *.txt
+compose-dev.yaml
